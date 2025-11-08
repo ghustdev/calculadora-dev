@@ -4,7 +4,7 @@ Uma calculadora de juros compostos especializada para desenvolvedores planejarem
 
 ## 🌐 Acesse Online
 
-**[Calculadora Dev | CD](https://calculadora-dev-mu.vercel.app/)**
+**[Calculadora Dev | CD](https://calculadorajurosdev.vercel.app/)**
 
 ## 🚀 Funcionalidades
 
