@@ -7,6 +7,8 @@ import { CareerPhasesSelector } from '@/components/CareerPhases/CareerPhasesSele
 import { ResultsDisplay } from '@/components/Results/ResultsDisplay';
 import { EvolutionChart } from '@/components/Chart/EvolutionChart';
 import { calculateCareerInvestment } from '@/utils/calculations';
+import logoImage from '@/assets/logo.png';
+
 
 export function Home() {
   // Estados do tema
@@ -153,9 +155,18 @@ export function Home() {
 
           {/* Rodapé */}
           <footer className="text-center py-6 px-4 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-            <p className="font-medium">
-              Calculadora Dev | CD - Planeje seu futuro financeiro como desenvolvedor
-            </p>
+            <div className="mt-4 flex items-center justify-center gap-2">
+              <p className="font-medium">
+                Calculadora Dev | CD - Planeje seu futuro financeiro como desenvolvedor |
+              </p>
+              <a 
+                href="https://calculadora-juros-dev.vercel.app/" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center hover:opacity-70 transition-opacity"
+              >
+                <img src={logoImage} alt="Logo" className='w-8' />
+              </a>
+            </div>
             <p className="mt-1 opacity-75">
               Os valores são simulações e não constituem garantia de rentabilidade
             </p>
