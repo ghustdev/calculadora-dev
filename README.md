@@ -2,6 +2,10 @@
 
 Uma calculadora de juros compostos especializada para desenvolvedores planejarem seu futuro financeiro considerando as diferentes fases da carreira.
 
+## 🌐 Acesse Online
+
+**[Calculadora Dev | CD](https://calculadora-juros-dev.vercel.app/)**
+
 ## 🚀 Funcionalidades
 
 - **Cálculo de Juros Compostos**: Suporte para taxas mensais e anuais com conversão automática
@@ -99,13 +103,18 @@ src/
 
 ## 🚀 Deploy
 
-### Vercel (Recomendado)
+O projeto está hospedado na Vercel e pode ser acessado em:
+**[https://calculadora-juros-dev.vercel.app/](https://calculadora-juros-dev.vercel.app/)**
+
+### Para fazer seu próprio deploy:
+
+#### Vercel (Recomendado)
 ```bash
 npm run build
 # Conecte seu repositório no Vercel
 ```
 
-### Netlify
+#### Netlify
 ```bash
 npm run build
 # Faça upload da pasta dist/
