@@ -1,6 +1,5 @@
 import { Moon, Sun, Calculator, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import logoImage from '@/assets/logo.png';
 
 export function Header({ darkMode, toggleDarkMode }) {
   const handleToggleDarkMode = () => {
@@ -15,7 +14,9 @@ export function Header({ darkMode, toggleDarkMode }) {
     <header className="bg-gradient-to-r from-white to-blue-50 dark:from-gray-800 dark:to-gray-900 border-2 border-gray-200 dark:border-gray-700 shadow-2xl rounded-xl p-4 sm:p-6 mb-6 sm:mb-8">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2 sm:gap-3">
-          <img src={logoImage} alt="Logo" className='w-12' />
+          <div className="p-2 sm:p-3 bg-gradient-to-br from-navy to-light-blue rounded-xl shadow-lg">
+            <Calculator className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+          </div>
           <div className="min-w-0 flex-1">
             <h1 className="text-lg sm:text-2xl font-bold text-navy dark:text-light-blue truncate">
               Calculadora Dev | CD

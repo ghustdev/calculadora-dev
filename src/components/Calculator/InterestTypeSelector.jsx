@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Calculator } from 'lucide-react';
 
 export function InterestTypeSelector({ isAnnual, setIsAnnual }) {
   const handleToggle = (value) => {
@@ -16,9 +15,6 @@ export function InterestTypeSelector({ isAnnual, setIsAnnual }) {
       <CardContent className="p-6">
         <h3 className="text-lg font-semibold mb-4 text-navy dark:text-light-blue">Tipo de Juros</h3>
         <div className="flex gap-2">
-          <div className="p-2 sm:p-3 bg-gradient-to-br from-navy to-light-blue rounded-xl shadow-lg">
-            <Calculator className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
-          </div>
           <Button
             variant={!isAnnual ? "default" : "outline"}
             onClick={() => handleToggle(false)}
