@@ -2,7 +2,7 @@
 
 Uma calculadora de juros compostos especializada para desenvolvedores planejarem seu futuro financeiro considerando as diferentes fases da carreira.
 
-**Implementado com um agente de IA, Cloude Opus 4.5 by Amazon Q**. Com isso, realizei em 1 dia um projeto que duraria 1 mês para ser finalizado!
+**Implementado com um agente de IA, Cloude Opus 4.5 by Amazon Q**. Com isso, realizei em 1 único dia um projeto que duraria cerca de 1/2 meses para ser finalizado!
 
 <img width="1230" height="951" alt="cd" src="https://github.com/user-attachments/assets/a083cc01-04ea-4054-ad45-a0cb58ddeced" />
 
