@@ -4,10 +4,14 @@ Uma calculadora de juros compostos especializada para desenvolvedores planejarem
 
 **Implementado com um agente de IA, Cloude Opus 4.5 by Amazon Q**. Com isso, realizei em 1 dia um projeto que duraria 1 mês para ser finalizado!
 
+<img width="1230" height="951" alt="cd" src="https://github.com/user-attachments/assets/a083cc01-04ea-4054-ad45-a0cb58ddeced" />
+
+
 ## 🌐 Acesse Online
 
 O projeto está hospedado na Vercel e pode ser acessado em:
 **[https://calculadora-juros-dev.vercel.app/](https://calculadora-juros-dev.vercel.app/)**
+
 **[Calculadora Dev | CD](https://calculadorajurosdev.vercel.app/)**
 
 ## 🚀 Funcionalidades
