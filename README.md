@@ -10,7 +10,7 @@ Uma calculadora de juros compostos especializada para desenvolvedores planejarem
 ## 🌐 Acesse Online
 
 O projeto está hospedado na Vercel e pode ser acessado em:
-**[https://calculadora-juros-dev.vercel.app/](https://calculadorajurosdev.vercel.app/)
+**[https://calculadora-juros-dev.vercel.app/](https://calculadorajurosdev.vercel.app/)**
 
 
 **[Calculadora Dev | CD](https://calculadorajurosdev.vercel.app/)**
